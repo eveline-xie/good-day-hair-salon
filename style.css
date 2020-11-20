@@ -1,0 +1,288 @@
+@media screen and (min-width: 800px) {
+    .service-section{
+        display: flex;
+        justify-content: space-around;
+   
+    }
+}
+
+*{
+    margin: 0 20px;
+    padding: 0;
+}
+
+.page-title{
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+
+}
+
+hr{
+    margin: 90px auto;
+}
+
+/* home */
+
+#home-container{
+    width: 100%;
+    padding-bottom: 80px;
+    margin-left: 0;
+}
+
+.title{
+    font-size: 150px;
+    padding-top: 8%;
+    font-family: 'Sacramento', cursive;
+    color: black;
+    letter-spacing: 4px;
+    margin:0;
+}
+
+
+.home-item{
+    text-align: center;
+    background-image: url("image/1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    opacity: 0.8;
+    background-size: cover;
+    height: 600px;
+}
+
+
+@media screen and (max-width: 800px) {
+    .title{
+        font-size: 100px;
+    }
+}
+
+/* nav bar */
+.navbar{
+    font-size: 18px;
+    padding-bottom: 10px;
+    margin: 10px auto;
+}
+
+.main-nav{
+    list-style-type: none;
+    display: none;
+}
+
+.main-nav li {
+    text-align: center;
+    margin: 15px auto;
+}
+
+.nav-links, .logo{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+    display: inline-block;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: 'Sacramento', cursive;
+}
+
+.navbar-toggle{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer; 
+    color:black;
+    font-size: 35px;
+    
+}
+
+.active {
+    display: block;
+}
+
+/* nav bar for desktop */
+@media screen and (min-width: 768px) {
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 0;
+        height: 70px;
+        align-items: center;
+   
+    }
+
+    .main-nav {
+        display: flex;
+        margin-right: 30px;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .main-nav li {
+        margin: 0;
+    }
+    .nav-links {
+        margin-left: 40px;
+    }
+    .logo {
+        margin-top: 0;
+    }
+   .navbar-toggle {
+       display: none;
+    }
+    .logo:hover,
+    .nav-links:hover {
+        color:black;
+    }
+}
+
+
+.sub-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    letter-spacing: 12px;
+    line-height: 1.5;
+    color: black;
+
+}
+
+.myButton {
+    margin-top: 20px;
+	background:linear-gradient(to bottom, #ffffff 5%, #e0e0e0 100%);
+	background-color:#ffffff;
+	border-radius:3px;
+	border:2px solid #050505;
+	display:inline-block;
+	cursor:pointer;
+	color:#0a090a;
+	font-family:Courier New;
+	font-size:17px;
+	padding:9px 24px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #e0e0e0 5%, #ffffff 100%);
+	background-color:#e0e0e0;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* service */
+
+.service-section{
+    margin: 60px auto;
+    
+}
+
+.service-item{
+    text-align: center;
+    padding: 3%;
+    line-height: 1.2;
+}
+
+.service-title{
+    font-size: 40px;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    line-height: 2.5;
+    letter-spacing: 4px;
+}
+
+.service-font{
+    font-family: 'Montserrat', sans-serif; 
+    color: lightslategray;
+}
+
+/* testimonials */
+#testimonials-container{
+    height: 300px;
+    /* background-color: #f1f3f8; */
+    padding-top: 40px;
+}
+
+.testimonials-fonts{
+    color:#393b44;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+@media screen and (max-width: 800px) {
+    #testimonials-container{
+        height: 600px;
+    }
+}
+
+.testimonials-message{
+    width: 50%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.stars{
+    letter-spacing: 10px;
+}
+
+/* Gallery */
+#gallery-container{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.gallery-images{
+    margin: 15px auto;
+    text-align: center;
+}
+@media screen and (min-width: 800px) {
+    .gallery-images{
+        width: 80%;
+    }
+}
+
+.gallery-img{
+    width:100%;
+    height: 100%;
+    max-width:300px;
+    border-radius: 5%;
+    margin: 10px 15px;
+}
+
+/* about us */
+#about-container{
+    padding-top: 10px;
+}
+.about-section{
+    width: 50%;
+    text-align: center;
+    margin: 10px auto;
+}
+.about-title{
+    font-family: 'Big Shoulders Stencil Display', cursive;
+}
+@media screen and (min-width: 800px) {
+    .about-info{
+        display: flex;
+        justify-content: space-around;
+        width: 70%;
+        margin: 0 auto;
+   
+    }
+}
+
+
+/* footer */
+#footer{
+    text-align: center;
+    margin: 10px auto;
+}
