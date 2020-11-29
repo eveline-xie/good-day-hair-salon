@@ -1,3 +1,4 @@
+//nav bar
 let mainNav = document.getElementById('js-menu');
 let navBarToggle = document.getElementById('js-navbar-toggle');
 
@@ -20,4 +21,3 @@ function carousel() {
   x[myIndex-1].style.display = "block";  
   setTimeout(carousel, 5000);    
 }
-
