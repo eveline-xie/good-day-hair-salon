@@ -35,7 +35,7 @@ hr{
 
 .title{
     font-size: 150px;
-    padding-top: 8%;
+    padding-top: 12%;
     font-family: 'Sacramento', cursive;
     color: black;
     letter-spacing: 4px;
@@ -51,7 +51,7 @@ hr{
     background-color: #cccccc;
     opacity: 0.8;
     background-size: cover;
-    height: 600px;
+    height: 800px;
 }
 
 
@@ -156,7 +156,7 @@ li{
 }
 
 .myButton {
-    margin-top: 20px;
+    margin-top: 5%;
 	background:linear-gradient(to bottom, #ffffff 5%, #e0e0e0 100%);
 	background-color:#ffffff;
 	border-radius:3px;
@@ -264,7 +264,6 @@ p{
     padding: 10px 0 30px 0;
 }
 .about-section{
-    width: 50%;
     text-align: center;
     margin: 10px auto;
 }
@@ -277,13 +276,16 @@ p{
         justify-content: space-around;
         width: 70%;
         margin: 0 auto;
+    }
    
+    .about-section{
+        width: 50%;
     }
 }
 
 .map{
-    width: 300px;
-    height: 210px;
+    width: 250px;
+    height: 200px;
     border:0;
     padding-top: 15px;
 }
